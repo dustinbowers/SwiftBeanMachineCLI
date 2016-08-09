@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA4C2D4D1D554AE6004BD6BB /* SimpleGaltonDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4C2D4C1D554AE6004BD6BB /* SimpleGaltonDistribution.swift */; };
+		DAF2A9B01D54012500A8A7C8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2A9AF1D54012500A8A7C8 /* main.swift */; };
+		DAF2A9B71D54016400A8A7C8 /* GaltonBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2A9B61D54016400A8A7C8 /* GaltonBall.swift */; };
+		DAF2A9B91D540AB700A8A7C8 /* GaltonMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2A9B81D540AB700A8A7C8 /* GaltonMachine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAF2A9AA1D54012500A8A7C8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA4C2D4C1D554AE6004BD6BB /* SimpleGaltonDistribution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleGaltonDistribution.swift; sourceTree = "<group>"; };
+		DAF2A9AC1D54012500A8A7C8 /* BeanMachineCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BeanMachineCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF2A9AF1D54012500A8A7C8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DAF2A9B61D54016400A8A7C8 /* GaltonBall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaltonBall.swift; sourceTree = "<group>"; };
+		DAF2A9B81D540AB700A8A7C8 /* GaltonMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaltonMachine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF2A9A91D54012500A8A7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAF2A9A31D54012500A8A7C8 = {
+			isa = PBXGroup;
+			children = (
+				DAF2A9AE1D54012500A8A7C8 /* BeanMachineCLI */,
+				DAF2A9AD1D54012500A8A7C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF2A9AD1D54012500A8A7C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF2A9AC1D54012500A8A7C8 /* BeanMachineCLI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF2A9AE1D54012500A8A7C8 /* BeanMachineCLI */ = {
+			isa = PBXGroup;
+			children = (
+				DAF2A9AF1D54012500A8A7C8 /* main.swift */,
+				DAF2A9B61D54016400A8A7C8 /* GaltonBall.swift */,
+				DAF2A9B81D540AB700A8A7C8 /* GaltonMachine.swift */,
+				DA4C2D4C1D554AE6004BD6BB /* SimpleGaltonDistribution.swift */,
+			);
+			path = BeanMachineCLI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF2A9AB1D54012500A8A7C8 /* BeanMachineCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF2A9B31D54012500A8A7C8 /* Build configuration list for PBXNativeTarget "BeanMachineCLI" */;
+			buildPhases = (
+				DAF2A9A81D54012500A8A7C8 /* Sources */,
+				DAF2A9A91D54012500A8A7C8 /* Frameworks */,
+				DAF2A9AA1D54012500A8A7C8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeanMachineCLI;
+			productName = BeanMachineCLI;
+			productReference = DAF2A9AC1D54012500A8A7C8 /* BeanMachineCLI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF2A9A41D54012500A8A7C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dustin Bowers";
+				TargetAttributes = {
+					DAF2A9AB1D54012500A8A7C8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = DAF2A9A71D54012500A8A7C8 /* Build configuration list for PBXProject "BeanMachineCLI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAF2A9A31D54012500A8A7C8;
+			productRefGroup = DAF2A9AD1D54012500A8A7C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF2A9AB1D54012500A8A7C8 /* BeanMachineCLI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF2A9A81D54012500A8A7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4C2D4D1D554AE6004BD6BB /* SimpleGaltonDistribution.swift in Sources */,
+				DAF2A9B91D540AB700A8A7C8 /* GaltonMachine.swift in Sources */,
+				DAF2A9B01D54012500A8A7C8 /* main.swift in Sources */,
+				DAF2A9B71D54016400A8A7C8 /* GaltonBall.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DAF2A9B11D54012500A8A7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAF2A9B21D54012500A8A7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DAF2A9B41D54012500A8A7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAF2A9B51D54012500A8A7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF2A9A71D54012500A8A7C8 /* Build configuration list for PBXProject "BeanMachineCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF2A9B11D54012500A8A7C8 /* Debug */,
+				DAF2A9B21D54012500A8A7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF2A9B31D54012500A8A7C8 /* Build configuration list for PBXNativeTarget "BeanMachineCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF2A9B41D54012500A8A7C8 /* Debug */,
+				DAF2A9B51D54012500A8A7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF2A9A41D54012500A8A7C8 /* Project object */;
+}
