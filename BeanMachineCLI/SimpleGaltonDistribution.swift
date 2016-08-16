@@ -3,7 +3,7 @@
 //  BeanMachineCLI
 //
 //  Created by Dustin Bowers on 8/5/16.
-//  Copyright © 2016 Dustin Bowers. All rights reserved.
+//  Copyright © 2016 Dustin Bowers.
 //
 
 import Foundation
@@ -17,7 +17,7 @@ func simple_galton_distribution(rows: Int, iterations: Int, lr_bias: Double = 0.
     
     for _ in 1...iterations {
         
-        // reset the offset back to 0
+        // reset the offset
         current_offset = 0
         
         for _ in 1...rows {

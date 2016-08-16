@@ -3,7 +3,7 @@
 //  BeanMachineCLI
 //
 //  Created by Dustin Bowers on 8/4/16.
-//  Copyright © 2016 Dustin Bowers. All rights reserved.
+//  Copyright © 2016 Dustin Bowers.
 //
 
 import Foundation
@@ -88,7 +88,6 @@ public class GaltonMachine {
     // Render the current ball's position as it would appear on a real board
     public func render_current_ball() {
         let (x, row) = self.current_ball.get_loc()
-        
         let left_padding_count = self.board_size * 2 - row
         let right_padding_count = row * 2 - x * 2
         

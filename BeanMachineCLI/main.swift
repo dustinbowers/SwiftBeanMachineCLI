@@ -3,7 +3,7 @@
 //  BeanMachineCLI
 //
 //  Created by Dustin Bowers on 8/4/16.
-//  Copyright © 2016 Dustin Bowers. All rights reserved.
+//  Copyright © 2016 Dustin Bowers.
 //
 
 import Foundation
@@ -20,16 +20,25 @@ func run(size: Int, iterations: Int, lr_bias: Double, render_output: Bool) {
     let counts: Array<String> = output.map { String($0.count) }
     let counts_str = counts.joinWithSeparator(", ")
     print("Counts: ", counts_str)
-    
 }
 
-// Ensure command line arguments are provided
-if(Process.arguments.count < 3) {
-    print("Arguments required: [num slots] [num iterations]")
+var num_slots = 10
+var num_iterations = 100
+var lr_bias = 0.5
+
+// Override defaults if command line arguments are provided
+if(Process.arguments.count != 1 || Process.arguments.count != 3) {
+    print("Arguments available: [num slots] [num iterations]")
+} else {
+    num_slots = Int(Process.arguments[1])!
+    num_iterations = Int(Process.arguments[2])!
 }
 
 // Go time
-run(Int(Process.arguments[1])!, iterations: Int(Process.arguments[2])!, lr_bias: 0.5, render_output: true)
+run(num_slots,
+    iterations: num_iterations,
+    lr_bias: lr_bias,
+    render_output: true)
 
 print("Done")
 

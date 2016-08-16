@@ -3,7 +3,7 @@
 //  BeanMachineCLI
 //
 //  Created by Dustin Bowers on 8/4/16.
-//  Copyright © 2016 Dustin Bowers. All rights reserved.
+//  Copyright © 2016 Dustin Bowers.
 //
 
 import Foundation
